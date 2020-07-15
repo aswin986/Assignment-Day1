@@ -1,0 +1,39 @@
+<!-- Question 1 :
+Explore and explain the various methods in console function
+Explain them
+Ex. console.log()
+console.warn().
+etc... -->
+             <b>console.log</b><br><br>
+The console.log () is a function in JavaScript which is used to print any kind of variables defined before in it or to just print any message that needs to be displayed to the user.
+<br><br>
+              <b>console.warn</b><br><br>
+The console.warn() method writes a warning to the console.<br><br>
+               <b>console.error</b><br><br>
+The console.error() method writes an error message to the console.
+
+The console is useful for testing purposes.<br><br>
+            <b>console.time  and console.time end</b> <br><br>
+The console.time() method starts a timer in the console view.
+
+This method allows you to time certain operations in your code for testing purposes.
+
+Use the console.timeEnd() method to end the timer and display the result in the console.view.
+
+Use the label parameter to name the timer, then you are able to have many timers on the same page.
+
+
+
+<html>
+     <head>
+         <script>
+             console.time('Time taken');
+             var name = "aswin";
+             console.log(name);
+             console.warn("There is an internal error");
+             console.error("An error occured");
+             console.timeEnd('Time taken');
+         </script>
+     </head>
+ </html>
+
